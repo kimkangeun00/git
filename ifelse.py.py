@@ -7,5 +7,5 @@ if sel == 1:
 else:
     num1 = input("첫 번쨰 숫자를 입력하세요:")
     num2 = input("두 번쨰 숫자를 입력하세요:")
-    result = num1 + num2
+    result = sum(range(int(num1), int(num2)+1))
     print(f"{num1}+...+{num2}는 {result}입니다.")
